@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:15px 20px;
+    font-size: 17px;
+   
+}
+boby{ 
+    padding:8px;
+    border:20px;
+
+}
+
+.container{
+    background-color: rgb(231, 229, 205);
+    
+    background-image:
+  linear-gradient(to right, rgba(173, 4, 245, 0.637), rgba(129, 24, 204, 0.685), rgba(0, 0, 255, 0.548),rgba(0, 255, 0, 0.568),rgba(255, 255, 0, 0.651),rgba(255, 128, 0, 0.685),rgba(255, 0, 0, 0.767));
+    padding:5px 20px 15px 20px;
+    border:1px solid lightgray;
+    border-radius: 60px;
+}
+h1{ 
+    /* background-image: */
+  /* linear-gradient(to right, rgba(173, 4, 245, 0.637), rgba(129, 24, 204, 0.685), rgba(0, 0, 255, 0.548),rgba(0, 255, 0, 0.568),rgba(255, 255, 0, 0.651),rgba(255, 128, 0, 0.685),rgba(255, 0, 0, 0.767)); */
+  border-radius: 50px;
+  width:100%;
+  padding:25px;
+    text-align: center;
+    font-size: 80px;
+    font-family: cursive;
+}
+
+.hero{
+    font-family:monospace ;
+    font-style: italic;
+    color:rgb(214, 26, 26);
+}
+h3{ 
+    font-style:italic;
+    font-size:30px;
+    color:rgb(30, 31, 34);
+}
+input[type="radio"],select [name="card_type"]{ 
+    cursor:pointer ;
+}
+/* legend{
+    padding:12px;
+    border:1px solid rgb(14, 41, 194);
+    border-radius: 5px;
+    
+} */
+input[type="text"],
+input[type="email"],
+input[type="pincode"],
+input[type="password"],
+input[type="number"],
+input[type="card_type"],select [name="card_type"],
+input[type="date"]
+,select,textarea{
+    
+    background-image:
+  linear-gradient(to right, rgba(173, 4, 245, 0.637), rgba(129, 24, 204, 0.685), rgba(0, 0, 255, 0.548),rgba(0, 255, 0, 0.568),rgba(255, 255, 0, 0.651),rgba(255, 128, 0, 0.685),rgba(255, 0, 0, 0.767));
+    width: 100%;
+    padding:12px;
+    border:1px solid rgb(14, 41, 194);
+    border-radius: 5px;
+    margin: 5px;
+}
+input[type="submit"]{
+    background-color: rgb(11, 36, 179);
+    color:white;
+    text-align: center;
+    padding: 12px 20px ;
+    border: none;
+    border-radius: 5px;
+    width:97%;
+
+}
+input[type="submit"]:hover { 
+
+    
+    color: rgba(255, 255, 255, 0.925);
+    background-color:navy;
+    cursor:pointer ;
+}
